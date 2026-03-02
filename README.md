@@ -31,6 +31,8 @@ Main steps:
 - Get the programm [juliaup](https://github.com/JuliaLang/juliaup), this tool allows to you to download and manage Julia versions. The tool `juliaup` is available for most platforms.
 - Use juliaup to install julia on your computer 
 
+Some useful video resources about Julia installation and basic usage can be found in that [youtube channel](https://www.youtube.com/watch?v=N_CQQgKEbdc&list=PLHohvTggxulqYC3f1gq5x7UqKDteDhA4-).
+
 ### b) Install VScodium
 
 Simply go to the [VScodium webpage](https://vscodium.com), download for your platform, and install.
