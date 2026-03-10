@@ -133,7 +133,7 @@ function Mechanics2D()
         niter = 10000   # Maximum number of iterations
         nout  = 200     # Check error each nout iterations
         tol   = 1e-5    # Tolerance of the solver (stop iterations when error has decreased below that level)
-        CFL   = 0.99    # CFL value should be 0.99
+        CFL   = 0.95    # CFL value is 0.90 - 0.99
         cf    = 1.0     # Damping factor ~ 0.5 - 1.0
         err0  = 1.0     # Dummy initial error value
 
