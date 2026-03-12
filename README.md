@@ -95,10 +95,11 @@ Now, type the following command to finalise the procedure and press enter:
 
 Use the file explorer of VScodium, to left of the window, click on the tab: <img src="./images/explorer_tab.png" width=30px> 
 
-
 Open the [preparatory exercise](./scripts/part0/) located in `./scripts/part0/`, the file is called `ArrayProgramming_stud.ipynb`. This is a notebook file than can be edited inside VScodium, using the Julia kernel that was installed in the previous steps. 
 
 Follow the steps and complete the exercise. The aim of the tutorial is to introduce you to working with arrays and visualising data in one and two dimensions.
+
+There is also a very succint introduction to the use of automa tic differentiation ([`ForwardDiff.jl`](https://github.com/JuliaDiff/ForwardDiff.jl)), see the notebook [`AD_Basics.ipynb`](./scripts/part0/).
 
 ## [Part 1: Anisotropic rheology in 2D](./scripts/part1)
 
@@ -106,8 +107,37 @@ The lecture notes are available [here](https://next.hessenbox.de/index.php/s/S9J
 
 The exercises scripts are available [there](./scripts/part1). 
 
+*Exercise 1*: Program a basic viscous isotropic constitutive law.
+
+*Exercise 2*: Rotate an isotropic material in a pure shear deformation field, check that the response **does not** depend on the orientation :D (0D) 
+
+ <img src="./images/0D_isotropic.png" width=400px> 
+
+*Exercise 3*: Rotate an *ani*sotropic material in a pure shear deformation field, check that the response **does** depend on the orientation! 
+
+ <img src="./images/0D_anisotropic.png" width=400px> 
+
+
+*Exercise 4*: Use automatic differentiation to determine the constitutive operator in Cartesian coordinates.
+
+ <img src="./images/0D_constitutive.png" width=400px> 
+
+ *Exercise 5*: Make it viscoelastic! 
+
+ <img src="./images/0D_anisotropic_VE.png" width=400px> 
+
+
 ## [Part 2: Anisotropic mechanics in 2D](./scripts/part2)
 
 The lecture notes are available [here](https://next.hessenbox.de/index.php/s/S9JJ6BRqn6TRrqy).
 
 The exercises scripts are available [there](./scripts/part2). 
+
+*Exercise 1*: Program a visous **isotropic** constitutive law into a 2D mechanical code:
+
+ <img src="./images/2D_isotropic.png" width=400px> 
+
+
+*Exercise 2*: Program a viscous **anisotropic** constitutive law into a 2D mechanical code:
+
+ <img src="./images/2D_anisotropic.png" width=400px> 
