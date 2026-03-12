@@ -2,14 +2,14 @@ using Plots, ForwardDiff, LinearAlgebra, StaticArrays
 
 av(η) = 1/4 .* ( η[1:end-1,1:end-1] .+ η[1:end-1,2:end-0] .+ η[2:end-0,1:end-1] .+ η[2:end-0,2:end-0] )
 
+# @TODO: Add the function you wrote in part 1 exercise 04 ...
+
 function ConstitutiveTensorVoigt(η, θ, δ)
     ε̇ = @SVector [1.0, 1.0, 1.0] 
     # @TODO: Call your function here !!!
     # 𝐃 = ...
     return 𝐃 
 end
-
-# @TODO: Add the function you wrote in part 1 exercise 04 ...
 
 function DeviatoricStress!(τ, ε̇, 𝐃)
     # Loop on node types (p=1 --> centroids or p=2 --> vertices) 
