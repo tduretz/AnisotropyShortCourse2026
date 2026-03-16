@@ -141,3 +141,46 @@ The exercises scripts are available [there](./scripts/part2).
 *Exercise 2*: Program a viscous **anisotropic** constitutive law into a 2D mechanical code:
 
  <img src="./images/2D_anisotropic.png" width=400px> 
+
+ ## References for viscous anisotropy in Geodynamic modelling
+
+Becker, T. W., & Kawakatsu, H. (2011). On the role of anisotropic viscosity for plate‐scale flow. Geophysical Research Letters, 38(17), L17307.
+
+Christensen, U. R. (1987). Some geodynamical effects of anisotropic viscosity. Geophysical Journal International, 91(3), 711–736.
+
+Duretz, T., Tugend, J., Mohn, G., Schmalholz, S. M. (2025). Symmetry versus asymmetry of rifted margins: The role of mechanical anisotropy. Geology.
+
+de Montserrat, A., Faccenda, M., & Pennacchioni, G. (2021). Extrinsic anisotropy of two‐phase Newtonian aggregates: Fabric characterization
+and parameterization. Journal of Geophysical Research: Solid Earth, 126(11), e2021JB022232.
+
+Király, Á., Conrad, C. P., & Hansen, L. N. (2020). Evolving viscous anisotropy in the upper mantle and its geodynamic implications. Geochemistry, Geophysics, Geosystems, 21(10), e2020GC009159.
+
+Liu, D., Puel, S., Becker, T. W., & Moresi, L. (2024). Analytical and numerical models of viscous anisotropy: A toolset to constrain the role of
+mechanical anisotropy for regional tectonics and fault loading. Geophysical Journal International, 239(2), 950–963. 
+
+Mameri, L., Tommasi, A., Signorelli, J., & Hassani, R. (2020). Olivine‐induced viscous anisotropy in fossil strike‐slip mantle shear zones and
+associated strain localization in the crust. Geophysical Journal International, 224(1), 608–625.
+
+Moresi, L., & Mühlhaus, H.‐B. (2006). Anisotropic viscous models of large‐deformation Mohr–Coulomb failure. Philosophical Magazine,
+86(21–22), 3287–3305.
+
+Mühlhaus, H. B., Moresi, L., & Cada, M. (2004a). Emergent anisotropy and flow alignment in viscous. PureandAppliedGeophysics, 161(11–12),
+2451–2463. 
+
+Perry‐Houts, J., & Karlstrom, L. (2018). Anisotropic viscosity and time‐evolving lithospheric instabilities due to aligned igneous intrusions.
+Geophysical Journal International, 216(2), 794–802.
+
+Pouilloux, L., Kaminski, E., & Labrosse, S. (2007). Anisotropic rheology of a cubic medium and implications for geological materials. Geophysical Journal International, 170(2), 876–885.
+
+Signorelli, J., Hassani, R., Tommasi, A., & Mameri, L. (2021). An effective parameterization of texture‐induced viscous anisotropy in orthotropic
+materials with application for modeling geodynamical flows. Journal of Theoretical, Computational and Applied Mechanics, 6737.
+
+Tommasi, A., Knoll, M., Vauchez, A., Signorelli, J. W., Thoraval, C., & Logé, R. (2009). Structural reactivation in plate tectonics controlled by
+olivine crystal anisotropy. Nature Geoscience, 2(6), 423–427.
+
+Treagus, S. H. (2003). Viscous anisotropy of two‐phase composites, and applications to rocks and structures. Tectonophysics, 372(3), 121–133.
+Geophysical Journal International, 170(2), 876–885
+
+Lev, E., & Hager, B. H. (2008). Rayleigh–Taylor instabilities with anisotropic lithospheric viscosity. GeophysicalJournalInternational, 173(3),
+806–814.
+ 
